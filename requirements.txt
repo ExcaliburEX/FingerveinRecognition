@@ -1,0 +1,7 @@
+scipy==1.7.0
+tensorflow==1.14.0
+Keras==2.3.1
+opencv_contrib_python==4.5.2.54
+numpy==1.16.6
+Pillow==8.3.0
+PySimpleGUI==4.45.0

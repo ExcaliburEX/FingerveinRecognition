@@ -3,6 +3,10 @@
 
 ---
 
+最新release：
+<h3 align="center"><a href= 'https://github.com/ExcaliburEX/FingerveinRecognition/releases/download/V1.0/FingerveinRecogntion.exe'><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/downloads/ExcaliburEX/FingerveinRecogntion/V1.0/total?color=success&flat-square&logo=Cachet"></a></h3>
+
+
 # 使用说明
 
 ## 代码说明

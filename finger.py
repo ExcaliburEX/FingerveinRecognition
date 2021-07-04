@@ -347,12 +347,19 @@ def progressbar(url,path,file_name,window):
 #         print("程序错误")
 
 
-
-
+# 判断目录是否有中文
+def is_Chinese(word):
+    for ch in word:
+        if '\u4e00' <= ch <= '\u9fff':
+            return True
+    return False
 
 
 # 批量训练与识别
 def BatchTrain(directory,window):
+    if is_Chinese(directory):
+        print(time.strftime("[%Y-%m-%d %H:%M:%S]: ",time.localtime()), "目录不得有中文，请移动本文件夹..." )
+        return
     model_name = 'VGG19'
     model_full_name = 'vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5'
     print(time.strftime("[%Y-%m-%d %H:%M:%S]: ",time.localtime()), "正在加载识别模型..." )
@@ -382,6 +389,9 @@ def BatchTrain(directory,window):
 
 
 def BatchTest(trainPic, readPicDir, finger_num,num,window):
+    if is_Chinese(readPicDir):
+        print(time.strftime("[%Y-%m-%d %H:%M:%S]: ",time.localtime()), "目录不得有中文，请移动本文件夹..." )
+        return
     model_full_name = 'vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5'
     print(time.strftime("[%Y-%m-%d %H:%M:%S]: ",time.localtime()), "单人手指数：%d张，随机抽取其中 %d 张进行比对！"%(int(finger_num),int(num)) )
     print(time.strftime("[%Y-%m-%d %H:%M:%S]: ",time.localtime()), "正在加载识别模型..." )

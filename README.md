@@ -4,8 +4,10 @@
 ---
 
 最新release：
-<h3 align="center"><a href= 'https://github.com/ExcaliburEX/FingerveinRecognition/releases/download/V1.0/FingerveinRecogntion.exe'><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/downloads/ExcaliburEX/FingerveinRecogntion/V1.0/total?color=success&flat-square&logo=Cachet"></a></h3>
+<h3 align="center"><a href= 'https://github.com/ExcaliburEX/FingerveinRecognition/releases/download/V1.1/FingerveinRecogntion.exe'><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/downloads/ExcaliburEX/FingerveinRecognition/V1.1/total?color=success&flat-square&logo=Cachet"></a></h3>
 
+# 更新日志
+- 2021-07-04：因为VGG19下载的预训练模型在Github导致有可能下载失败，因此将模型文件存储到自己的腾讯云OSS桶，通过程序自动下载，手动设置了VGG19的预训练模型的路径，规避了因为网络问题导致的下载失败。
 
 # 使用说明
 

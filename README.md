@@ -4,6 +4,8 @@
 
 <div align="center">
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=ExcaliburEX.FingerveinRecognition)
+
 [![GitHub Issues](https://img.shields.io/github/issues/ExcaliburEX/FingerveinRecognition.svg)](https://github.com/ExcaliburEX/FingerveinRecognition)[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ExcaliburEX/FingerveinRecognition.svg)](https://github.com/ExcaliburEX/FingerveinRecognition/pulls)![forks](https://img.shields.io/github/forks/ExcaliburEX/FingerveinRecognition)![stars](	https://img.shields.io/github/stars/ExcaliburEX/FingerveinRecognition)![repo size](https://img.shields.io/github/repo-size/ExcaliburEX/FingerveinRecognition)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
